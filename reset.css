@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    --white: hsl(0, 0%, 100%);
+    --light-blue: #d6e1f0;
+    --light-gray: hsl(212, 45, 89%);
+    --gray-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Outfit", sans-serif;
+    background: var(--light-blue);
+    font-size: 62, 5%;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+img,
+embed,
+object,
+iframe {
+    max-width: 100%;
+    height: auto;
+}

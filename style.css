@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background: var(--white);
+    margin: 6em 2em 0em 2em;
+    padding: 1em 1em 4em 1em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    text-align: center;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.main-text h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+.main-text p {
+    font-size: 1em;
+    color: var(--gray-blue);
+}
+
+.qr-code img {
+    border-radius: 1em;
+}
+
+/* Tablets */
+@media (min-width: 481px) {
+    main {
+        max-width: 22em;
+    }
+}
+
+/* Small Screen Laptops */
+@media (min-width: 769px) {
+}
+
+/* Desktops */
+@media (min-width: 1025px) {
+}
+
+/* Extra Large screens, TV */
+@media (min-width: 1201px) {
+}
